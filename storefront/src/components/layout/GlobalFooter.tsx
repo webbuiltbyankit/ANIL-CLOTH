@@ -72,7 +72,7 @@ export const GlobalFooter: React.FC = () => {
         <div className="lg:col-span-4 space-y-4">
           <div className="flex items-center gap-3">
             <img
-              src="/media/images/profile_picture.jpg"
+              src={`${import.meta.env.BASE_URL}media/images/profile_picture.jpg`}
               alt="ANIL CLOTH HOUSE visiting card thumbnail"
               width={48}
               height={48}

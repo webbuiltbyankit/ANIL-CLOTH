@@ -150,7 +150,7 @@ export const OurStoryPage: React.FC = () => {
               </span>
               <div className="mt-3 flex items-center gap-4 bg-ivory p-4 border border-ivory-border">
                 <img
-                  src="/media/images/profile_picture.jpg"
+                  src={`${import.meta.env.BASE_URL}media/images/profile_picture.jpg`}
                   alt="Adinya by Anil Cloth House visiting card thumbnail"
                   width={72}
                   height={72}
@@ -175,7 +175,7 @@ export const OurStoryPage: React.FC = () => {
                 </span>
                 <div className="mt-3 overflow-hidden border border-ivory-border bg-ivory">
                   <img
-                    src={noticeImage}
+                    src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}${noticeImage}`}
                     alt="Store Ordering Policy Notice Graphic C_pknaLv-Hc"
                     className="w-full h-auto object-contain max-h-72 bg-oxblood-deep"
                   />

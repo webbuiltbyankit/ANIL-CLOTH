@@ -864,7 +864,7 @@ export const ProductDetailPage: React.FC = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <img
-              src={primaryImage || ''}
+              src={primaryImage ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${primaryImage}` : ''}
               alt={product.images[0]?.altText || product.title}
               className="max-h-[80vh] w-auto mx-auto object-contain"
             />

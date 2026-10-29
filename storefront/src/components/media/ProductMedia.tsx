@@ -2,6 +2,13 @@ import React, { useRef, useState } from 'react';
 import { Film, ImageOff, Maximize2, Pause, Play, Volume2, VolumeX } from 'lucide-react';
 import { sanitizeLocalMediaPath } from '@/lib/security';
 
+export function resolveMediaAssetUrl(rawPath: string | null | undefined): string | null {
+  const clean = sanitizeLocalMediaPath(rawPath);
+  if (!clean) return null;
+  const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+  return `${base}${clean}`;
+}
+
 interface MediaPlaceholderProps {
   label?: string;
   shortcode?: string;
@@ -53,7 +60,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({
   className = '',
   imgClassName = '',
 }) => {
-  const safeSrc = sanitizeLocalMediaPath(src);
+  const safeSrc = resolveMediaAssetUrl(src);
   const [loaded, setLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
 
@@ -122,7 +129,7 @@ export const EditorialImage: React.FC<EditorialImageProps> = ({
   priority = false,
   className = '',
 }) => {
-  const safeSrc = sanitizeLocalMediaPath(src);
+  const safeSrc = resolveMediaAssetUrl(src);
   const [hasError, setHasError] = useState(false);
 
   if (!safeSrc || hasError) {
@@ -184,8 +191,8 @@ export const ReelVideoPlayer: React.FC<ReelVideoPlayerProps> = ({
   onExpandZoom,
   className = '',
 }) => {
-  const safeVideo = sanitizeLocalMediaPath(videoSrc);
-  const safePoster = sanitizeLocalMediaPath(posterSrc);
+  const safeVideo = resolveMediaAssetUrl(videoSrc);
+  const safePoster = resolveMediaAssetUrl(posterSrc);
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(Boolean(autoPlayMuted));
   const [isMuted, setIsMuted] = useState(true);
