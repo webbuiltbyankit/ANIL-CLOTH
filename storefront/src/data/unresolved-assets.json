@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-10-29T08:30:00.000Z",
+  "totalUnresolved": 2,
+  "unresolved": [
+    {
+      "shortcode": "DcWRrPfPZkI",
+      "postUrl": "https://www.instagram.com/p/DcWRrPfPZkI/",
+      "expectedFiles": [
+        "DcWRrPfPZkI.webp"
+      ],
+      "reason": "Referenced .webp feed image was not included in anil_cloth_house/image/ archive"
+    },
+    {
+      "shortcode": "DcF_q50SRmk",
+      "postUrl": "https://www.instagram.com/p/DcF_q50SRmk/",
+      "expectedFiles": [
+        "DcF_q50SRmk.webp"
+      ],
+      "reason": "Referenced .webp feed image was not included in anil_cloth_house/image/ archive"
+    }
+  ]
+}

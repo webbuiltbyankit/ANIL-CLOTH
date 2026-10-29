@@ -1,0 +1,30 @@
+{
+  "username": "anil_cloth_house_official",
+  "profile_url": "https://www.instagram.com/anil_cloth_house_official/",
+  "display_name": "ANIL CLOTH HOUSE",
+  "profile_picture_url": "https://scontent.cdninstagram.com/v/t51.82787-19/778255303_18040825733819147_6880044267651393215_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=103&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMxIn0%3D&_nc_ohc=YCVqRrEliooQ7kNvwGNN65l&_nc_oc=AdrFGQe2tQ30B8o2U_psYUoNaJ5-C8-Lxg7pNHCDKaLXmH3MPmuySQ1S89XPnWQAXN2jsMaI60vTKY5JeLu00JkW&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=mQBknD5wxDmiFZeF6OKUQg&_nc_ss=7f60f&oh=00_AQSc3QwucY5MnscM_ii9G9BCFchJLG7E__HCJcyoOwP-cA&oe=6AE8C8AD",
+  "profile_picture_local": "output/anil_cloth_house_official/profile/profile_picture.jpg",
+  "biography": "Manufacturer and wholesaler\nCLOTHING BRAND\n🌍Worldwide shipping\nNO DM'S NO COD\nTO ORDER-Whatsapp:+91-8810530298\nBased in Delhi,1k/6a NIT. Faridabad",
+  "business_category": null,
+  "business_address": "Delhi,1k/6a NIT. Faridabad",
+  "business_phone": "+91-8810530298",
+  "business_email": null,
+  "external_url": null,
+  "bio_links": [],
+  "followers_count": 8972,
+  "following_count": 19,
+  "post_count": 2055,
+  "is_business_account": null,
+  "is_professional_account": null,
+  "is_private": null,
+  "is_verified": null,
+  "public_business_descriptions": {
+    "open_graph_description": "8,972 Followers, 19 Following, 2,055 Posts - See Instagram photos and videos from ANIL CLOTH HOUSE (@anil_cloth_house_official)"
+  },
+  "source_provider": "public_html_opengraph",
+  "extracted_at": "2026-10-29T07:22:31.515681+00:00",
+  "access_notes": [
+    "Instaloader public query encountered an access restriction (ConnectionException: JSON Query to api/v1/users/web_profile_info/: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://www.instagram.com/api/v1/users/web_profile_info/?username=anil_cloth_house_official). Attempting standard public web page metadata fallback.",
+    "Collected public OpenGraph summary metadata from profile page; full GraphQL bio/posts require authorized API or manual fallback due to Instagram unauthenticated access restrictions."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "profile_url": "https://www.instagram.com/anil_cloth_house_official/",
+  "username": "anil_cloth_house_official",
+  "extraction_date": "2026-10-29 07:37:36 UTC",
+  "extraction_mode": "resume",
+  "completion_status": "partial_accessible",
+  "is_100_percent_verified": false,
+  "status_explanation": "Collected accessible public metadata and 100 post(s) (out of 2055 total profile posts). Instagram restricts full unauthenticated pagination and Story Highlights; use the Fallback Importer or Official Graph API token for any remaining items.",
+  "total_accessible_posts_discovered": 2055,
+  "posts_processed": 100,
+  "images_saved": 100,
+  "carousel_items_saved": 0,
+  "reels_videos_saved": 97,
+  "reel_covers_saved": 97,
+  "highlights_saved": 0,
+  "product_candidates_identified": 100,
+  "skipped_duplicates": 0,
+  "failed_downloads": 0,
+  "information_collected_successfully": [
+    "Display Name",
+    "Biography",
+    "Profile Picture (Local File)",
+    "Public Business Address",
+    "Public Business Phone",
+    "Followers Count",
+    "Following Count",
+    "Total Post Count",
+    "Public Posts Metadata (100 post(s))",
+    "Downloaded Post/Carousel Images (100 file(s))",
+    "Downloaded Reels/Videos (97 file(s))"
+  ],
+  "information_unavailable_or_restricted": [
+    "Business Category",
+    "Public Business Email",
+    "External Website Link",
+    "Story Highlights & Active Stories (Requires authenticated session)"
+  ],
+  "highlights_access_note": "Story Highlights & active Stories are restricted by Instagram for unauthenticated requests (LoginRequiredException). Access controls were respected and not bypassed.",
+  "errors_and_skipped_files": [
+    "Instaloader public query encountered an access restriction (ConnectionException: JSON Query to api/v1/users/web_profile_info/: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://www.instagram.com/api/v1/users/web_profile_info/?username=anil_cloth_house_official). Attempting standard public web page metadata fallback.",
+    "Collected public OpenGraph summary metadata from profile page; full GraphQL bio/posts require authorized API or manual fallback due to Instagram unauthenticated access restrictions."
+  ],
+  "source_provider": "public_html_opengraph",
+  "started_at": "2026-10-29T07:22:31.490635+00:00",
+  "completed_at": "2026-10-29T07:37:36.475471+00:00"
+}

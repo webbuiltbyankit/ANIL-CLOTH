@@ -1,0 +1,12 @@
+{
+  "installCommand": "npm --prefix storefront install",
+  "buildCommand": "npm --prefix storefront run build",
+  "outputDirectory": "storefront/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+

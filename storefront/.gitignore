@@ -1,0 +1,19 @@
+# Dependencies & Build Outputs
+node_modules/
+dist/
+.tsbuildinfo
+*.tsbuildinfo
+
+# OS & Editor Files
+.DS_Store
+**/.DS_Store
+.env
+.env.*
+!.env.example
+
+# Keep the 3 Hero .mp4 Reels as real files in Git; ignore local symlinks to the 2.2 GB raw video archive
+public/media/videos/*.mp4
+!public/media/videos/DfC6hNDTwrJ_video.mp4
+!public/media/videos/DfC5XpkTzsZ_video.mp4
+!public/media/videos/De-7aBHTYcS_video.mp4
+

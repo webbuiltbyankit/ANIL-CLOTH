@@ -1,0 +1,5 @@
+# UNOFFICIAL PRIVATE CONCEPT DEMO — DO NOT INDEX
+# Note: robots.txt directives are advisory for search crawlers and do not replace authentication/password protection if hosted externally.
+User-agent: *
+Disallow: /
+

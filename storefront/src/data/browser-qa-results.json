@@ -1,0 +1,325 @@
+{
+  "timestamp": "2026-10-29T09:31:38.483Z",
+  "routesTested": [
+    {
+      "route": "/",
+      "name": "home",
+      "widthsVerified": [
+        320,
+        360,
+        375,
+        390,
+        414,
+        480,
+        600,
+        768,
+        820,
+        1024,
+        1280,
+        1440,
+        1920,
+        2560
+      ]
+    },
+    {
+      "route": "/shop",
+      "name": "shop",
+      "widthsVerified": [
+        320,
+        360,
+        375,
+        390,
+        414,
+        480,
+        600,
+        768,
+        820,
+        1024,
+        1280,
+        1440,
+        1920,
+        2560
+      ]
+    },
+    {
+      "route": "/collections/embroidered-edit",
+      "name": "collection-embroidered",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/collections/festive-selections",
+      "name": "collection-festive",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/lookbook",
+      "name": "lookbook",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/search?q=Ruby",
+      "name": "search",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/product/DfC6hNDTwrJ",
+      "name": "pdp",
+      "widthsVerified": [
+        320,
+        360,
+        375,
+        390,
+        414,
+        480,
+        600,
+        768,
+        820,
+        1024,
+        1280,
+        1440,
+        1920,
+        2560
+      ]
+    },
+    {
+      "route": "/wishlist",
+      "name": "wishlist",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/enquiry-bag",
+      "name": "enquiry-bag",
+      "widthsVerified": [
+        320,
+        360,
+        375,
+        390,
+        414,
+        480,
+        600,
+        768,
+        820,
+        1024,
+        1280,
+        1440,
+        1920,
+        2560
+      ]
+    },
+    {
+      "route": "/checkout",
+      "name": "checkout-concept",
+      "widthsVerified": [
+        320,
+        360,
+        375,
+        390,
+        414,
+        480,
+        600,
+        768,
+        820,
+        1024,
+        1280,
+        1440,
+        1920,
+        2560
+      ]
+    },
+    {
+      "route": "/wholesale",
+      "name": "wholesale",
+      "widthsVerified": [
+        320,
+        360,
+        375,
+        390,
+        414,
+        480,
+        600,
+        768,
+        820,
+        1024,
+        1280,
+        1440,
+        1920,
+        2560
+      ]
+    },
+    {
+      "route": "/our-story",
+      "name": "our-story",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/contact",
+      "name": "contact",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/faq",
+      "name": "faq",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/shipping",
+      "name": "shipping",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/returns",
+      "name": "returns",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/demo-notice",
+      "name": "demo-notice",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/design-system",
+      "name": "design-system",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "route": "/non-existent-route-404",
+      "name": "not-found-404",
+      "widthsVerified": [
+        320,
+        375,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    }
+  ],
+  "viewportMatrixIssues": [],
+  "brokenImages": [],
+  "consoleErrors": [],
+  "pageExceptions": [],
+  "screenshotsSaved": [
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/home-375px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/home-768px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/home-1440px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/shop-375px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/shop-768px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/shop-1440px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/pdp-375px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/pdp-768px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/pdp-1440px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/enquiry-bag-375px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/enquiry-bag-768px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/enquiry-bag-1440px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/checkout-concept-375px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/checkout-concept-768px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/checkout-concept-1440px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/wholesale-375px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/wholesale-768px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/wholesale-1440px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/our-story-375px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/our-story-768px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/our-story-1440px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/contact-375px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/contact-768px.png",
+    "/Users/taklatvs/anilshop/storefront/qa-screenshots/contact-1440px.png"
+  ],
+  "zoomAudit": [
+    {
+      "zoomPct": 200,
+      "scrollWidth": 640,
+      "innerWidth": 640,
+      "overflow": false
+    },
+    {
+      "zoomPct": 400,
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "overflow": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Dependencies & Build Outputs
+node_modules/
+storefront/node_modules/
+dist/
+storefront/dist/
+.tsbuildinfo
+*.tsbuildinfo
+
+# OS & Editor Files
+.DS_Store
+**/.DS_Store
+.env
+.env.*
+!.env.example
+
+# Exclude the 2.2 GB raw video archive from Git pushes (GitHub rejects >2GB pushes).
+# All 99 .jpg garment images (13 MB) and the 3 Hero .mp4 Reels are tracked as real files in storefront/public/media/
+anil_cloth_house/video/*.mp4
+storefront/public/media/videos/*.mp4
+!storefront/public/media/videos/DfC6hNDTwrJ_video.mp4
+!storefront/public/media/videos/DfC5XpkTzsZ_video.mp4
+!storefront/public/media/videos/De-7aBHTYcS_video.mp4
+

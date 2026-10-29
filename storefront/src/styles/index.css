@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-ivory: #FAF6F0;
+  --bg-parchment: #F3ECE2;
+  --bg-stone: #E8DFD1;
+  --bg-oxblood: #2D1018;
+  --bg-oxblood-deep: #1E0A10;
+  --text-ink: #1C1517;
+  --text-muted: #574A4D;
+  --text-brass-dark: #7A5820;
+  --text-brass-light: #E2C285;
+  --border-hairline: #DED3C3;
+}
+
+@layer base {
+  html {
+    background-color: var(--bg-ivory);
+    color: var(--text-ink);
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  pre {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    max-width: 100%;
+  }
+
+  /* Visible luxury keyboard focus treatment (Prompts 015, 082, 083) */
+  *:focus-visible {
+    outline: 2px solid #7A5820;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .editorial-container {
+    @apply max-w-editorial mx-auto px-4 sm:px-6 lg:px-10;
+  }
+
+  .text-display-hero {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    font-size: clamp(2.15rem, 4.2vw + 0.9rem, 4.1rem);
+    line-height: 1.07;
+    letter-spacing: -0.015em;
+  }
+
+  .text-heading-1 {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.85rem, 3vw + 0.75rem, 3.15rem);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+  }
+
+  .text-heading-2 {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.5rem, 2.2vw + 0.6rem, 2.4rem);
+    line-height: 1.16;
+  }
+
+  .text-heading-3 {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.25rem, 1.3vw + 0.5rem, 1.65rem);
+    line-height: 1.24;
+  }
+
+  .eyebrow-label {
+    @apply text-xs uppercase tracking-[0.15em] font-semibold;
+  }
+
+  .btn-luxury-primary {
+    @apply inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3 bg-oxblood text-ivory text-sm font-medium tracking-wide transition-colors duration-200 hover:bg-oxblood-plum active:bg-oxblood-deep disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-luxury-brass {
+    @apply inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3 bg-brass-light text-oxblood-deep text-sm font-semibold tracking-wide transition-colors duration-200 hover:bg-brass-champagne active:bg-brass-light disabled:opacity-50;
+  }
+
+  .btn-luxury-secondary {
+    @apply inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3 border border-oxblood/30 bg-ivory text-ink text-sm font-medium tracking-wide transition-colors duration-200 hover:border-oxblood hover:bg-ivory-warm active:bg-ivory-stone disabled:opacity-50;
+  }
+
+  .btn-luxury-outline {
+    @apply inline-flex items-center justify-center gap-2 min-h-[44px] px-5 py-2.5 border border-oxblood/35 bg-ivory text-ink text-xs sm:text-sm font-medium tracking-wide transition-colors duration-200 hover:border-oxblood hover:bg-ivory-warm active:bg-ivory-stone disabled:opacity-50;
+  }
+
+  .btn-luxury-outline-light {
+    @apply inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3 border border-ivory/40 bg-transparent text-ivory text-sm font-medium tracking-wide transition-colors duration-200 hover:border-ivory hover:bg-ivory/10;
+  }
+
+  .input-editorial {
+    @apply w-full min-h-[44px] px-3.5 py-2.5 bg-ivory border border-ivory-border text-ink text-sm placeholder:text-ink-muted/60 focus:outline-none focus:border-oxblood transition-colors;
+  }
+}
+
+/* Safe area support for mobile sticky bars (Prompts 020, 073) */
+.pb-safe {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
+
+/* Reduced motion compliance (Prompts 022, 074, 075, 083) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
